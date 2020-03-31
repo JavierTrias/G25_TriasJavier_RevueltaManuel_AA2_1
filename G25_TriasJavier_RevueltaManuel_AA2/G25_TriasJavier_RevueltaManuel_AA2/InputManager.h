@@ -1,7 +1,7 @@
 #pragma once
 #include <Windows.h>
 
-void GetKeys(bool Keys[9]) // Order: W, A, S, D, Esc, Up, Down, Right, Left
+void getKeys(bool Keys[9]) // Order: W, A, S, D, Esc, Up, Down, Right, Left
 {
 	Keys[0] = GetAsyncKeyState(0x57); // W
 	Keys[1] = GetAsyncKeyState(0x41); // A

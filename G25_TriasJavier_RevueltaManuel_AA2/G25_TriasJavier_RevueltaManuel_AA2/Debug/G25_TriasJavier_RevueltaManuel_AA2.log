@@ -1,0 +1,8 @@
+﻿  Main.cpp
+Map.obj : error LNK2005: "void __cdecl getMapParameters(void)" (?getMapParameters@@YAXXZ) already defined in Main.obj
+Map.obj : error LNK2005: "void __cdecl printMap(void)" (?printMap@@YAXXZ) already defined in Main.obj
+Map.obj : error LNK2005: "int NUM_ROWS" (?NUM_ROWS@@3HA) already defined in Main.obj
+Map.obj : error LNK2005: "int NUM_COLUMNS" (?NUM_COLUMNS@@3HA) already defined in Main.obj
+Map.obj : error LNK2005: "char * * board" (?board@@3PAPADA) already defined in Main.obj
+Player.obj : error LNK2005: "void __cdecl GetKeys(bool * const)" (?GetKeys@@YAXQA_N@Z) already defined in Main.obj
+C:\Users\Javi Trias Badia\Documents\G25_TriasJavier_RevueltaManuel_AA2_1\G25_TriasJavier_RevueltaManuel_AA2\Debug\G25_TriasJavier_RevueltaManuel_AA2.exe : fatal error LNK1169: one or more multiply defined symbols found
