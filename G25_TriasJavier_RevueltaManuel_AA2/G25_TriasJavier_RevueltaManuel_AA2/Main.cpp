@@ -10,9 +10,14 @@
 
 int main()
 {
+	Player1 player1;
+	Player2 player2;
 	std::cout << "*-----SCORE-----*" << std::endl;
 	std::cout << "Player 1: ";
-	std::cin >> Player1.score;
+	std::cin >> player1.score;
 	std::cout << "Player 2: ";
-	std::cin >> Player2.score;
+	std::cin >> player2.score;
+
+	InputKeysPlayer1 InputManager;
+
 }

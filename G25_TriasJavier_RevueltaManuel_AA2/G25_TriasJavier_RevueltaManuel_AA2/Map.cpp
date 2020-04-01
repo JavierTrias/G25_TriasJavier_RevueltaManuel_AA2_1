@@ -6,16 +6,17 @@
 void getMapParameters()
 {
 	std::ifstream myFile("config.txt");
+	Board board1;
 
 	if (myFile.is_open())
 	{
-		myFile >> NUM_ROWS >> NUM_COLUMNS;
+		myFile >> board1.NUM_ROWS >> board1.NUM_COLUMNS;
 	}
-	for (int counterRows = 0; counterRows < NUM_ROWS; counterRows++)
+	for (int counterRows = 0; counterRows < board1.NUM_ROWS; counterRows++)
 	{
-		for (int counterColumns = 0; counterColumns < NUM_COLUMNS; counterColumns++)
+		for (int counterColumns = 0; counterColumns < board1.NUM_COLUMNS; counterColumns++)
 		{
-			myFile >> board[counterRows][counterColumns];
+			myFile >> board1.board[counterRows][counterColumns];
 		}
 	}
 	myFile.close();
@@ -23,11 +24,12 @@ void getMapParameters()
 
 void printMap()
 {
-	for (int i = 0; i < NUM_ROWS; i++)
+	Board board1;
+	for (int i = 0; i < board1.NUM_ROWS; i++)
 	{
-		for (int j = 0; j < NUM_COLUMNS; j++)
+		for (int j = 0; j < board1.NUM_COLUMNS; j++)
 		{
-			std::cout << board[i][j];
+			std::cout << board1.board[i][j];
 		}
 	}
 }

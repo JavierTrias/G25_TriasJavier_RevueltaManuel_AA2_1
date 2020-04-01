@@ -3,7 +3,10 @@
 #include <fstream>
 #include <Windows.h>
 #include "Map.h"
-int NUM_ROWS;
-int NUM_COLUMNS;
 
-char **board;
+struct Board
+{
+	int NUM_ROWS = 0;
+	int NUM_COLUMNS = 0;
+	char **board;
+};
