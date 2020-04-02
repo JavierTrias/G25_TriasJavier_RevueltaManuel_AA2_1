@@ -2,7 +2,6 @@
 #include <iostream>
 #include <fstream>
 #include <Windows.h>
-#include "Map.h"
 
 struct Board
 {

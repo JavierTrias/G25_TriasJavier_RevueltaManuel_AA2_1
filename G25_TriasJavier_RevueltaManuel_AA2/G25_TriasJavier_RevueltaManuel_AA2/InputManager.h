@@ -15,10 +15,12 @@
 //	Keys[8] = GetAsyncKeyState(VK_LEFT);
 //}
 
-struct InputKeysPlayer1 {
+struct InputKeysPlayer1
+{
 	bool keys[(int)movePlayer1::COUNT1] = {};
 
-	void Update() {
+	void Update()
+	{
 		keys[(int)movePlayer1::ESCAPE] = GetAsyncKeyState(VK_ESCAPE);
 		keys[(int)movePlayer1::UP1] = GetAsyncKeyState(VK_UP);
 		keys[(int)movePlayer1::DOWN1] = GetAsyncKeyState(VK_DOWN);
@@ -27,10 +29,12 @@ struct InputKeysPlayer1 {
 	}
 };
 
-struct InputKeysPlayer2 {
+struct InputKeysPlayer2
+{
 	bool keys[(int)movePlayer2::COUNT2] = {};
 
-	void Update() {
+	void Update()
+	{
 		keys[(int)movePlayer2::UP2] = GetAsyncKeyState(0x57);
 		keys[(int)movePlayer2::DOWN2] = GetAsyncKeyState(0x53);
 		keys[(int)movePlayer2::LEFT2] = GetAsyncKeyState(0x41);

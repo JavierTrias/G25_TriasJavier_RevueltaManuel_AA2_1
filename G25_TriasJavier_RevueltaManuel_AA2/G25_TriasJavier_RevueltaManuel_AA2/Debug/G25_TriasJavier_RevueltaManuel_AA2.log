@@ -2,7 +2,4 @@
   Map.cpp
   Player.cpp
   Generating Code...
-Map.obj : error LNK2005: "void __cdecl getMapParameters(void)" (?getMapParameters@@YAXXZ) already defined in Main.obj
-Map.obj : error LNK2005: "void __cdecl printMap(void)" (?printMap@@YAXXZ) already defined in Main.obj
-Player.obj : error LNK2005: "void __cdecl movePlayers(int &,int &)" (?movePlayers@@YAXAAH0@Z) already defined in Main.obj
-C:\Users\Javi Trias Badia\Documents\G25_TriasJavier_RevueltaManuel_AA2_1\G25_TriasJavier_RevueltaManuel_AA2\Debug\G25_TriasJavier_RevueltaManuel_AA2.exe : fatal error LNK1169: one or more multiply defined symbols found
+  G25_TriasJavier_RevueltaManuel_AA2.vcxproj -> C:\Users\Javi Trias Badia\Documents\G25_TriasJavier_RevueltaManuel_AA2_1\G25_TriasJavier_RevueltaManuel_AA2\Debug\G25_TriasJavier_RevueltaManuel_AA2.exe

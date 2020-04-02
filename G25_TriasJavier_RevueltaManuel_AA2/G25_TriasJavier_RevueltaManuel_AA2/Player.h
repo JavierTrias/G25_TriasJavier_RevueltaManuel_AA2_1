@@ -1,6 +1,5 @@
 #pragma once
 
-
 struct Player1
 {
 	int posX = 1;
